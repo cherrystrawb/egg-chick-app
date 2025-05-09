@@ -6,7 +6,7 @@ function App(){
         setHatched(true);
         return (
             <div className="container">
-                {!hatched ? (
+                {!hatched? (
                     <img src="egg.png".../>
                 ):(
                     <img src="chick.png".../>
@@ -22,7 +22,7 @@ function App(){
                 alt="Chick"
                 className="chick"
                 />
-                <p>{!hatched ? "Click the egg: Its a chick!"}</p>
+                <p>{!hatched ? "Click the egg: It's a chick!"}</p>
                 export default App;  
                 }
         )
